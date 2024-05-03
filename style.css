@@ -1,0 +1,47 @@
+*{
+  margin:0;
+  font-family:Arial;
+  border: border-box;/*border-box is a property that tells the browser to include the width and height in the element's total width and height.*/  
+}
+
+.navbar{
+  height: 60px;/* inspect the site*/
+  background-color: #0f1111;
+  color:white;/*Text color.*/
+  display:flex;/*All the boxes of navbar appears in a row.*/
+
+  align-items:center;/*Items will be aligned at the center.*/
+  justify-content:space-between;
+}
+
+.nav-logo{
+  height:50px;
+  width:100px;
+}
+
+.logo{
+  background-image:url("amazon_logo.png");
+  background-size:cover;
+  height:50px;
+  width:100%;
+}
+
+.border{
+  border:2px solid transparent;
+}
+.border:hover{
+  border:1.5px solid white;
+}
+/* box2 */
+.add-first{
+  color: #cccccc;
+  font-size: 0.85rem;/*root element.*/
+  margin-left:15px;
+}
+
+.add-second{
+  font-size: 1rem;
+  margin-left:3px;
+}
+
+/*flex will bring all the elements in the div to same line.*/
