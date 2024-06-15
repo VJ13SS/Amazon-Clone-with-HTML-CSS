@@ -1,7 +1,7 @@
 *{
   margin:0;
   font-family:Arial;
-  border: border-box;/*border-box is a property that tells the browser to include the width and height in the element's total width and height.*/  
+  box-sizing:border-box;/*border-box is a property that tells the browser to include the width and height in the element's total width and height.*/  
 }
 
 .navbar{
